@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #00d9a5;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 10%;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    color: #00d9a5;
+}
+
+.hero p {
+    color: #ccc;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 550px;
+}
+
+.btn {
+    display: inline-block;
+    background: #00d9a5;
+    color: #111;
+    padding: 14px 25px;
+    margin-top: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #00d9a5;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #222;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #aaa;
+}
+
+@media(max-width:600px) {
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    nav a {
+        margin-left: 8px;
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Usman4892</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Hello, I'm a <span>Graphic Designer</span></h1>
+    <p>
+        I create creative, modern and attractive
+        designs that help brands stand out.
+        Welcome to my personal portfolio.
+    </p>
+    <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a creative graphic designer passionate
+        about branding, social media designs,
+        business cards and visual communication.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class="project">Logo Design</div>
+        <div class="project">Business Cards</div>
+        <div class="project">Social Media Design</div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Usman4892. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>indgdfajkdfhhg
